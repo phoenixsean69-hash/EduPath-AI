@@ -1,0 +1,353 @@
+{
+  "institutions": [
+    {
+      "id": "northbridge",
+      "name": "Zim Best College",
+      "type": "University",
+      "city": "Harare",
+      "abbr": "NU",
+      "summary": "Research-focused degrees across computing, business and engineering."
+    },
+    {
+      "id": "central",
+      "name": "Central Polytechnic",
+      "type": "Polytechnic",
+      "city": "Bulawayo",
+      "abbr": "CP",
+      "summary": "Applied technical programmes with practical training."
+    },
+    {
+      "id": "lakeside",
+      "name": "Lakeside College",
+      "type": "College",
+      "city": "Mutare",
+      "abbr": "LC",
+      "summary": "Professional certificates and diploma programmes."
+    },
+    {
+      "id": "horizon",
+      "name": "Horizon High School",
+      "type": "High School",
+      "city": "Gweru",
+      "abbr": "HS",
+      "summary": "Secondary education with day and boarding options."
+    }
+  ],
+  "programmes": [
+    {
+      "id": "CS101",
+      "name": "BSc Computer Science",
+      "inst": "northbridge",
+      "level": "Degree",
+      "duration": "4 years",
+      "fee": 1250,
+      "career": "Software Developer",
+      "subjects": {
+        "Mathematics": "C",
+        "English": "C"
+      },
+      "tags": [
+        "Technology",
+        "Computing"
+      ],
+      "intake": "August 2027",
+      "capacity": 120
+    },
+    {
+      "id": "BM112",
+      "name": "BCom Business Management",
+      "inst": "northbridge",
+      "level": "Degree",
+      "duration": "4 years",
+      "fee": 1160,
+      "career": "Business Analyst",
+      "subjects": {
+        "English": "C"
+      },
+      "tags": [
+        "Business",
+        "Management"
+      ],
+      "intake": "August 2027",
+      "capacity": 170
+    },
+    {
+      "id": "EE120",
+      "name": "BEng Electrical Engineering",
+      "inst": "northbridge",
+      "level": "Degree",
+      "duration": "5 years",
+      "fee": 1550,
+      "career": "Electrical Engineer",
+      "subjects": {
+        "Mathematics": "B",
+        "Physics": "C",
+        "English": "C"
+      },
+      "tags": [
+        "Engineering",
+        "Technology"
+      ],
+      "intake": "August 2027",
+      "capacity": 80
+    },
+    {
+      "id": "ICT210",
+      "name": "Diploma in ICT",
+      "inst": "central",
+      "level": "Diploma",
+      "duration": "3 years",
+      "fee": 680,
+      "career": "IT Support Specialist",
+      "subjects": {
+        "Mathematics": "D",
+        "English": "D"
+      },
+      "tags": [
+        "Computing",
+        "Technology"
+      ],
+      "intake": "January 2027",
+      "capacity": 150
+    },
+    {
+      "id": "ME220",
+      "name": "Diploma in Mechanical Engineering",
+      "inst": "central",
+      "level": "Diploma",
+      "duration": "3 years",
+      "fee": 750,
+      "career": "Engineering Technician",
+      "subjects": {
+        "Mathematics": "C",
+        "Physics": "D"
+      },
+      "tags": [
+        "Engineering"
+      ],
+      "intake": "January 2027",
+      "capacity": 95
+    },
+    {
+      "id": "AC230",
+      "name": "Diploma in Accounting",
+      "inst": "central",
+      "level": "Diploma",
+      "duration": "3 years",
+      "fee": 640,
+      "career": "Accounts Assistant",
+      "subjects": {
+        "Mathematics": "D",
+        "English": "D"
+      },
+      "tags": [
+        "Business",
+        "Finance"
+      ],
+      "intake": "January 2027",
+      "capacity": 140
+    },
+    {
+      "id": "GD310",
+      "name": "Certificate in Graphic Design",
+      "inst": "lakeside",
+      "level": "Certificate",
+      "duration": "1 year",
+      "fee": 420,
+      "career": "Graphic Designer",
+      "subjects": {
+        "English": "D"
+      },
+      "tags": [
+        "Creative",
+        "Design"
+      ],
+      "intake": "March 2027",
+      "capacity": 70
+    },
+    {
+      "id": "HT320",
+      "name": "Diploma in Hospitality",
+      "inst": "lakeside",
+      "level": "Diploma",
+      "duration": "2 years",
+      "fee": 560,
+      "career": "Hospitality Supervisor",
+      "subjects": {
+        "English": "D"
+      },
+      "tags": [
+        "Hospitality",
+        "Business"
+      ],
+      "intake": "March 2027",
+      "capacity": 90
+    },
+    {
+      "id": "DB330",
+      "name": "Certificate in Digital Business",
+      "inst": "lakeside",
+      "level": "Certificate",
+      "duration": "1 year",
+      "fee": 390,
+      "career": "Digital Marketing Assistant",
+      "subjects": {
+        "English": "D"
+      },
+      "tags": [
+        "Business",
+        "Technology"
+      ],
+      "intake": "March 2027",
+      "capacity": 80
+    },
+    {
+      "id": "HS801",
+      "name": "Form 1 / Grade 8 Entry",
+      "inst": "horizon",
+      "level": "High School",
+      "duration": "4 years",
+      "fee": 360,
+      "career": "Secondary Education",
+      "subjects": {
+        "English": "D",
+        "Mathematics": "D"
+      },
+      "tags": [
+        "High School"
+      ],
+      "intake": "January 2027",
+      "capacity": 100
+    }
+  ],
+  "initialCampaigns": [
+    {
+      "id": "CMP-101",
+      "name": "Discover Computing 2027",
+      "channel": "Facebook",
+      "budget": 950,
+      "spend": 620,
+      "visits": 4100,
+      "leads": 520,
+      "applications": 156,
+      "offers": 61,
+      "enrolled": 34,
+      "status": "Active",
+      "start": "2026-10-12"
+    },
+    {
+      "id": "CMP-102",
+      "name": "Open Day — August Intake",
+      "channel": "School Outreach",
+      "budget": 1200,
+      "spend": 840,
+      "visits": 2600,
+      "leads": 410,
+      "applications": 185,
+      "offers": 78,
+      "enrolled": 51,
+      "status": "Active",
+      "start": "2026-10-17"
+    },
+    {
+      "id": "CMP-103",
+      "name": "Business Degrees Awareness",
+      "channel": "Instagram",
+      "budget": 750,
+      "spend": 500,
+      "visits": 3300,
+      "leads": 390,
+      "applications": 110,
+      "offers": 43,
+      "enrolled": 24,
+      "status": "Active",
+      "start": "2026-10-21"
+    },
+    {
+      "id": "CMP-104",
+      "name": "Scholarship Information Week",
+      "channel": "Google Search",
+      "budget": 600,
+      "spend": 395,
+      "visits": 1650,
+      "leads": 210,
+      "applications": 84,
+      "offers": 30,
+      "enrolled": 19,
+      "status": "Completed",
+      "start": "2026-09-18"
+    }
+  ],
+  "initialApplications": [
+    {
+      "id": "APP-1041",
+      "student": "Tariro Moyo",
+      "programme": "CS101",
+      "inst": "northbridge",
+      "status": "Under Review",
+      "submitted": "2026-11-04",
+      "source": "Facebook",
+      "note": ""
+    },
+    {
+      "id": "APP-1042",
+      "student": "Rudo Ncube",
+      "programme": "BM112",
+      "inst": "northbridge",
+      "status": "Submitted",
+      "submitted": "2026-11-03",
+      "source": "Instagram",
+      "note": ""
+    },
+    {
+      "id": "APP-1043",
+      "student": "Simbarashe Dube",
+      "programme": "EE120",
+      "inst": "northbridge",
+      "status": "Shortlisted",
+      "submitted": "2026-11-02",
+      "source": "School Outreach",
+      "note": ""
+    },
+    {
+      "id": "APP-1044",
+      "student": "Munashe Moyo",
+      "programme": "CS101",
+      "inst": "northbridge",
+      "status": "Documents Required",
+      "submitted": "2026-11-01",
+      "source": "Facebook",
+      "note": ""
+    },
+    {
+      "id": "APP-1045",
+      "student": "Tariro Moyo",
+      "programme": "ICT210",
+      "inst": "central",
+      "status": "Submitted",
+      "submitted": "2026-10-28",
+      "source": "Direct",
+      "note": ""
+    },
+    {
+      "id": "APP-1046",
+      "student": "Chipo Sibanda",
+      "programme": "BM112",
+      "inst": "northbridge",
+      "status": "Offer Issued",
+      "submitted": "2026-10-27",
+      "source": "Google Search",
+      "note": ""
+    },
+    {
+      "id": "APP-1047",
+      "student": "Tendai Ndlovu",
+      "programme": "BM112",
+      "inst": "northbridge",
+      "status": "Under Review",
+      "submitted": "2026-10-25",
+      "source": "School Outreach",
+      "note": ""
+    }
+  ]
+}

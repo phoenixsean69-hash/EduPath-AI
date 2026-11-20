@@ -1,0 +1,19 @@
+# Local databases
+data/*.sqlite3
+data/*.sqlite3-*
+*.db
+*.db-journal
+
+# Backups and temporary files
+Backups/
+__pycache__/
+*.pyc
+*.log
+
+# Environments and secrets
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+node_modules/

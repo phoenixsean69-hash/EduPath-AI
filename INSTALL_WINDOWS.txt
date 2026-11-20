@@ -1,0 +1,6 @@
+EDUPATH AI — Windows setup
+1. Extract this archive to:
+   C:\Users\nooklyweb\Documents\Python Projects\
+2. Open the EduPath_AI directory.
+3. Double-click Start-EduPath.bat.
+This frontend prototype uses sample data and is not connected to production admissions.

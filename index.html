@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en" data-bs-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#206bc4">
+  <meta name="description" content="EduPath — multi-institution recruitment and admissions local SQLite demonstration built with Tabler.">
+  <title>EduPath · Recruitment Platform</title>
+  <!-- Offline fallback loads first. Official Tabler styles take precedence when connected. -->
+  <link rel="stylesheet" href="./css/fallback.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/core@1.7.3/dist/css/tabler.min.css">
+  <link rel="stylesheet" href="./css/app.css">
+</head>
+<body>
+  <div class="app-shell" id="shell">
+    <aside class="navbar navbar-vertical navbar-expand-lg" id="sidebar">
+      <div class="container-fluid sidebar-inner">
+        <div class="sidebar-brand" id="sidebar-brand"></div>
+        <nav id="sidebar-nav" class="sidebar-nav" aria-label="Primary navigation"></nav>
+        <div id="sidebar-foot" class="sidebar-foot"></div>
+      </div>
+    </aside>
+    <div class="app-content">
+      <header class="navbar navbar-expand-md app-topbar" aria-label="Top navigation">
+        <div class="container-xl topbar-inner" id="topbar"></div>
+      </header>
+      <main class="page-wrapper" id="main" tabindex="-1"></main>
+      <footer class="app-footer"></footer>
+    </div>
+  </div>
+  <div id="modal-root"></div><div id="toast-root" aria-live="polite"></div>
+  <script src="https://cdn.jsdelivr.net/npm/@tabler/core@1.7.3/dist/js/tabler.min.js" defer></script>
+  <script src="./js/app.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+EDUPATH AI - SQLITE DEMONSTRATION (3 MINUTES)
+
+PREPARE
+  1. Open VS Code in ...\Documents\Python Projects\EduPath_AI
+  2. Open terminal and run: py -3 server.py
+  3. Open browser at http://127.0.0.1:8765
+  4. Check http://127.0.0.1:8765/api/health -> engine: SQLite, ok: true
+
+RECRUITER SIDE
+  - Dashboard: application queue, campaign volume, recruitment funnel
+  - Applications: select a candidate -> change review status -> save
+  - Campaigns: create a new campaign -> display the new record
+  - Analytics: inspect sample cost per application / cost per enrolment
+
+STUDENT SIDE
+  - Switch to Student in top bar
+  - My Qualifications: update a grade, save
+  - Smart Recommendations: observe eligibility change
+  - Explore Programmes: choose Graphic Design or another programme not yet applied for -> Apply
+  - My Applications: verify submission
+  - AI Assistant: ask "What are the requirements for Computer Science?"
+
+CONNECT THE SIDES
+  - Switch Recruiter -> Applications -> review the new submission
+  - Switch Student -> My Applications -> see updated status
+  - Refresh browser -> record still exists (SQLite persistence)
+
+IF ANYTHING GOES WRONG
+  - Ensure server terminal remains open.
+  - Refresh browser, ensure address is 127.0.0.1:8765 and NOT port 5500.
+  - Stop the backend, then run RESET-DEMO-DATABASE.bat to restore the fictional records.
+
+DISCLOSE LIMITATIONS
+  - These records, programmes, fees, campaign results and names are fictional.
+  - Chatbot is rules-based, not a hosted LLM.
+  - Student/Recruiter role switch is a demo-only control (NO authentication).
+  - No official admissions, real ad integrations, or live institution messaging.
